@@ -14,8 +14,4 @@ app.get('/:id/reviews/styles', (req, res) => {
     res.redirect(`http://localhost:3002/${req.params.id}/stylesheet.css`);
 });
 
-// app.get('/:id/reviews', (req, res) => {
-//     res.redirect(`http://localhost:3002/${req.params.id}/reviews`);
-// });
-
 app.listen(3000);
