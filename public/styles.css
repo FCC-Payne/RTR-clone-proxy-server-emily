@@ -4,7 +4,12 @@
 }
 
 .viewer-forms {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 75px;
+  margin: 25px 75px;
+}
+
+.title-bar img {
+  max-width: -webkit-fill-available;
 }
