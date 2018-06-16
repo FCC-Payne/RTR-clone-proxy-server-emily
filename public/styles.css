@@ -1,0 +1,10 @@
+#carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.viewer-forms {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px;
+}
